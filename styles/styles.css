@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Main */
+main {
+    max-width: 840px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+main img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+main ul.box {
+    list-style: none;
+    padding: 0;
+}
+
+main ul.box li {
+    margin: 10px 0;
+}
+
+main ul.box li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+main ul.box li a:hover {
+    text-decoration: underline;
+}
+
+/* Aside */
+aside.box {
+    position: relative;
+    width: 20rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 20%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside.box img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+aside.box h2 {
+    position: absolute;
+    top: 10px; 
+    left: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,175 @@
+:root {
+  --primary-color: #219ebc; 
+  --secondary-color: #fb8500; 
+  --accent1-color: #ffb703; 
+  --accent2-color: #023047; 
+  --heading-font: "TikTok Sans", sans-serif;
+  --body-font: "Winky Rough", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+/* Header*/
+
+header, main, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* Hero */
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 20px auto;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+}
+
+.hero article img {
+  float: right;
+  width: 200px;
+  margin-left: 16px;
+}
+
+/* Nav */
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Social Media */
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.socialmedia a img {
+  width: 64px;
+  height: 64px;
+  transition: transform 0.3s ease;
+}
+
+
+
+/* Adventure */
+
+.adventure {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin: 16px;
+}
+
+.adventure img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* Logo  */
+
+.logo-box img {
+  width: 120px;
+  height: auto;
+}
+
+.logo-box {
+  flex: 0 0 auto;
+  background-color: var(--primary-color);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+/*  Font */
+
+.winky-rough-body-font {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tiktok-sans-heading-font {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}

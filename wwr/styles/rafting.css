@@ -119,16 +119,17 @@ nav {
 /* Adventure */
 
 .adventure {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
   margin: 16px;
 }
-
 .adventure img {
+  display: block;
   width: 100%;
   height: auto;
   object-fit: cover;
+  margin-bottom: 16px;
+}
+.adventure img:last-child {
+  margin-bottom: 0;
 }
 
 /* Logo */

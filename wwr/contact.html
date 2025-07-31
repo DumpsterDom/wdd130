@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact Rubber Ducky Tubing for inquiries, reservations, or suggestions. Reach us by phone, email, or our online form.">
+        <meta name="author" content="Dominic Trujillo-Grissom">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <title>Contact Us - Rubber Ducky Tubing</title>     
+    </head>
+    <body>
+        <header>
+            <div class="logo-box">
+                <img src="images/logo.jpg" alt="Rafting Logo">
+            </div>
+            <h1>Rubber Ducky Rafting</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-hero">
+                <h2>Contact Us</h2>
+                <p>Ready for your next adventure? Contact us to book a trip or ask any questions!</p>
+            </section>
+            <section class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p><strong>Address:</strong> 5000 Whitewater Center Pkwy, Charlotte, NC 28214</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> info@rubberduckytubing.com</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3953073314487!2d-81.00554029999999!3d35.2712966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856bd20e3f7debd%3A0x9f98f6c378221e22!2sU.S.%20National%20Whitewater%20Center!5e0!3m2!1sen!2sus!4v1753921280399!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="employee-profiles">
+                <h3>Meet Our Team</h3>
+                <div class="employee-grid">
+                    <figure>
+                        <img src="images/oden.jpg" alt="Oden Trujillo, Lead Guide">
+                        <figcaption>Oden Trujillo, Lead Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/theo.jpg" alt="Theodore Trujillo, Safety Coordinator">
+                        <figcaption>Theodore Trujillo, Safety Coordinator</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/august.jpg" alt="August Trujillo, Trip Planner">
+                        <figcaption>August Trujillo, Trip Planner</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </fieldset>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label><input type="checkbox" name="newsletter" value="subscribe"> Please subscribe me to the monthly newsletter</label>
+                    <button type="submit">Submit Your Message</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>©2025 🛶 Rubber Ducky Tubing 🛶 Dominic Trujillo-Grissom</p>
+            <div class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.jpg" alt="Rubber Ducky Tubing Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.jpg" alt="Rubber Ducky Tubing Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.jpg" alt="Rubber Ducky Tubing Instagram">
+                </a>
+            </div>
+            <p><a href="https://app.moqups.com/f1sim2iUASMccWWKTQeIKDFksp1AoV29/view/page/ad64222d5" target="_blank">View Contact Page Wireframe</a></p>
+        </footer>
+    </body>
+</html>

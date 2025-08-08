@@ -24,7 +24,7 @@ body {
 /* Main */
 
 main {
-  max-width: 840px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
@@ -459,9 +459,29 @@ h2 {
   margin: 20px 0;
 }
 
-.employee-grid, .employee-profiles {
+/* Employee  */
+
+.employee-profiles {
   text-align: center;
   margin: 20px 0;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 10px 20px;
+  font-family: var(--body-font);
+  color: var(--accent2-color);
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.employee-grid > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 /* Footer */
